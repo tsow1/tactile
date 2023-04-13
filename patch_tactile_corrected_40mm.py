@@ -286,7 +286,7 @@ def main(model):
         save_weights_only=True,
     )
 
-    model.load_weights(checkpoint_filepath)
+    # model.load_weights(checkpoint_filepath)
 
     history = model.fit(
         x=x_train,
